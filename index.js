@@ -13,6 +13,6 @@ import Card from "./src/components/Card";
 import FeaturedCard from "./src/components/FeaturedCard";
 import ListScreen from "./src/Screens/ListScreen";
 import List from "./src/Screens/List";
+import Api from './src/Utils/api';
 
-
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => Api);
