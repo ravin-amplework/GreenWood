@@ -27,12 +27,12 @@ constructor(){
    }
   async getApiData(){
 
-    // let resp = await axios.get('');
+   
    await  axios.get('https://api.github.com/repos/ravin-amplework/GreenWood/commits/main')
     .then((response) => {
       //console.log(response.data, "Data ======");
       
-   console.log("array ------",response.data);
+   console.log("data ------ ",response.data);
       this.setState({
         data:response.data
        
